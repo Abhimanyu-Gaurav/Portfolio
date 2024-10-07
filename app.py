@@ -24,17 +24,26 @@ async def read_root():
         <h1>👋 Hi, I'm Abhimanyu Kumar Gaura V!</h1>
         <p>🌍 A passionate Software Developer based in Delhi, skilled in Python, FastAPI, and web scraping.</p>
         <p>💻 I specialize in building data-driven applications and automation tools.</p>
+
         <h2>Projects</h2>
         <ul>
             <li><strong>Google Maps Scraper Tool:</strong> An automated tool to scrape business data from Google Maps using Python and FastAPI.</li>
             <li><strong>Web Scraper Tool:</strong> A web scraper built with FastAPI and BeautifulSoup for data automation.</li>
             <li><strong>To-Do List Application:</strong> A CRUD API built with FastAPI and Docker.</li>
         </ul>
+
+        <h2>Blogs</h2>
+        <p>Coming soon...</p>
+
+        <h2>Testimonials</h2>
+        <p>What my clients say:</p>
+        <blockquote>"Abhimanyu did an excellent job!"</blockquote>
+
+        <h2>Contact Information</h2>
+
         <p>📧 Contact: kr.abhi.gaurav11@gmail.com</p>
     </body>
     </html>
     """
 
-if __name__ == '__main__':
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+
