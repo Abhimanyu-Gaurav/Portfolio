@@ -19,6 +19,17 @@ async def read_root():
             ul { list-style-type: none; }
             li { margin: 10px 0; }
         </style>
+        <link rel="stylesheet" href="styles.css">
+        
+        <!-- Google Analytics Tracking Code -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WZSK913Q88');
+        </script>
     </head>
     <body>
         <h1>👋 Hi, I'm Abhimanyu Kumar Gaura V!</h1>
