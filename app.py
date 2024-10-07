@@ -13,22 +13,21 @@ async def read_root():
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Portfolio</title>
         <style>
-            body { text-align: center; padding: 50px; font-family: Arial, sans-serif; }
-            h1 { font-size: 2.5em; }
-            p { font-size: 1.2em; }
-            ul { list-style-type: none; }
+            body { text-align: center; padding: 50px; font-family: Arial, sans-serif; background-color: #f8f9fa; }
+            h1 { font-size: 2.5em; color: #333; }
+            p { font-size: 1.2em; color: #666; }
+            ul { list-style-type: none; padding: 0; }
             li { margin: 10px 0; }
+            blockquote { font-style: italic; margin: 20px 0; }
         </style>
-        <link rel="stylesheet" href="styles.css">
-        
+
         <!-- Google Analytics Tracking Code -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZSK913Q88"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
-        gtag('config', 'G-WZSK913Q88');
+        gtag('config', 'G-WZSK913Q88');  <!-- Update this with your tracking ID -->
         </script>
     </head>
     <body>
@@ -51,10 +50,7 @@ async def read_root():
         <blockquote>"Abhimanyu did an excellent job!"</blockquote>
 
         <h2>Contact Information</h2>
-
-        <p>📧 Contact: kr.abhi.gaurav11@gmail.com</p>
+        <p>📧 Contact: <a href="mailto:kr.abhi.gaurav11@gmail.com">kr.abhi.gaurav11@gmail.com</a></p>
     </body>
     </html>
     """
-
-
