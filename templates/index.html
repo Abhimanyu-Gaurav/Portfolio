@@ -6,50 +6,8 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #343a40; /* Dark gray background for better visibility */
-            color: #f8f9fa; /* Light text color */
-        }
-        .navbar {
-            background-color: #007bff; /* Bootstrap primary color */
-        }
-        .navbar-brand, .nav-link {
-            color: #fff !important; /* White text for navbar */
-        }
-        .header {
-            text-align: center;
-            padding: 50px;
-            color: #f8f9fa; /* Light text for header */
-        }
-        .profile-pic {
-            width: 150px; /* Profile picture size */
-            border-radius: 50%; /* Circle profile picture */
-            border: 5px solid #fff; /* White border */
-        }
-        .social-icons a {
-            margin: 0 10px; /* Space between icons */
-            color: #007bff; /* Primary color for icons */
-            font-size: 1.5em; /* Increase icon size */
-        }
-        .section {
-            padding: 30px 0; /* Padding for sections */
-        }
-        .collapse {
-            background-color: #495057; /* Darker background for collapsed sections */
-            padding: 15px; /* Padding for collapsed sections */
-            border: 1px solid #007bff; /* Border color for collapsed sections */
-            border-radius: 5px; /* Rounded corners */
-        }
-        .collapse h2 {
-            color: #f8f9fa; /* Light text color for section headings */
-        }
-        .collapse p, .collapse ul {
-            color: #f8f9fa; /* Light text color for section content */
-        }
-    </style>
-    
+    <link rel="stylesheet" href="../static/css/styles.css"> <!-- Correct path for your CSS file -->
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZSK913Q88"></script>
     <script>
@@ -75,6 +33,9 @@
                     <a class="nav-link" data-toggle="collapse" href="#work" role="button" aria-expanded="false" aria-controls="work">Work Experience</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="../static/resume/resume.pdf" target="_blank">Download Resume</a> <!-- Link to your resume -->
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" data-toggle="collapse" href="#contact" role="button" aria-expanded="false" aria-controls="contact">Contact</a>
                 </li>
             </ul>
@@ -91,9 +52,7 @@
         <div class="social-icons">
             <a href="https://github.com/Abhimanyu-Gaurav" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/abhimanyu-gaurav-b25912132/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <!-- Add more social links as needed -->
         </div>
-
     </div>
 
     <!-- Skills Section -->
@@ -104,7 +63,6 @@
             <li>FastAPI</li>
             <li>Web Scraping</li>
             <li>Docker</li>
-            <!-- Add more skills as needed -->
         </ul>
     </div>
 

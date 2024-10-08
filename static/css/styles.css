@@ -1,0 +1,48 @@
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #343a40; /* Dark gray background for better visibility */
+    color: #f8f9fa; /* Light text color */
+}
+.navbar {
+    background-color: #007bff; /* Bootstrap primary color */
+}
+.navbar-brand, .nav-link {
+    color: #fff !important; /* White text for navbar */
+}
+.header {
+    text-align: center;
+    padding: 50px;
+    color: #f8f9fa; /* Light text for header */
+}
+.profile-pic {
+    width: 150px; /* Profile picture size */
+    border-radius: 50%; /* Circle profile picture */
+    border: 5px solid #fff; /* White border */
+}
+.social-icons a {
+    margin: 0 10px; /* Space between icons */
+    color: #007bff; /* Primary color for icons */
+    font-size: 1.5em; /* Increase icon size */
+}
+.section {
+    padding: 30px 0; /* Padding for sections */
+}
+.collapse {
+    background-color: #495057; /* Darker background for collapsed sections */
+    padding: 15px; /* Padding for collapsed sections */
+    border: 1px solid #007bff; /* Border color for collapsed sections */
+    border-radius: 5px; /* Rounded corners */
+}
+.collapse h2 {
+    color: #f8f9fa; /* Light text color for section headings */
+}
+.collapse p, .collapse ul {
+    color: #f8f9fa; /* Light text color for section content */
+}
+/* Resume iframe */
+iframe {
+    border: none;
+    margin-top: 20px;
+}
+
