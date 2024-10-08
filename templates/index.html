@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #343a40; /* Dark gray background for better visibility */
+            color: #f8f9fa; /* Light text color */
+        }
+        .navbar {
+            background-color: #007bff; /* Bootstrap primary color */
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important; /* White text for navbar */
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+            color: #f8f9fa; /* Light text for header */
+        }
+        .profile-pic {
+            width: 150px; /* Profile picture size */
+            border-radius: 50%; /* Circle profile picture */
+            border: 5px solid #fff; /* White border */
+        }
+        .social-icons a {
+            margin: 0 10px; /* Space between icons */
+            color: #007bff; /* Primary color for icons */
+            font-size: 1.5em; /* Increase icon size */
+        }
+        .section {
+            padding: 30px 0; /* Padding for sections */
+        }
+        .collapse {
+            background-color: #495057; /* Darker background for collapsed sections */
+            padding: 15px; /* Padding for collapsed sections */
+            border: 1px solid #007bff; /* Border color for collapsed sections */
+            border-radius: 5px; /* Rounded corners */
+        }
+        .collapse h2 {
+            color: #f8f9fa; /* Light text color for section headings */
+        }
+        .collapse p, .collapse ul {
+            color: #f8f9fa; /* Light text color for section content */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Abhimanyu Gaurav</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="collapse" href="#skills" role="button" aria-expanded="false" aria-controls="skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="collapse" href="#education" role="button" aria-expanded="false" aria-controls="education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="collapse" href="#work" role="button" aria-expanded="false" aria-controls="work">Work Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="collapse" href="#contact" role="button" aria-expanded="false" aria-controls="contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>👋 Hi, I'm Abhimanyu Gaurav!</h1>
+        <p>🌍 A passionate Software Developer based in Delhi, skilled in Python, FastAPI, and web scraping.</p>
+        <p>💻 I specialize in building data-driven applications and automation tools.</p>
+
+        <!-- Social Media Links -->
+        <div class="social-icons">
+            <a href="https://github.com/Abhimanyu-Gaurav" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abhimanyu-gaurav-b25912132/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <!-- Add more social links as needed -->
+        </div>
+
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills" class="section collapse">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>FastAPI</li>
+            <li>Web Scraping</li>
+            <li>Docker</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </div>
+
+    <!-- Education Section -->
+    <div id="education" class="section collapse">
+        <h2>Education</h2>
+        <p>Your education details here...</p>
+    </div>
+
+    <!-- Work Experience Section -->
+    <div id="work" class="section collapse">
+        <h2>Work Experience</h2>
+        <p>Your work experience details here...</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section collapse">
+        <h2>Contact Information</h2>
+        <p>📧 Contact: <a href="mailto:kr.abhi.gaurav11@gmail.com">kr.abhi.gaurav11@gmail.com</a></p>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
