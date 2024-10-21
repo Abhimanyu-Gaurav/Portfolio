@@ -89,7 +89,7 @@ This is a personal portfolio website built using FastAPI and Bootstrap. It featu
 1. Locally: 
 - Run FastAPI using uvicorn:
      ```bash
-     uvicorn main:app --reload 
+     uvicorn app:app --reload 
 
 2. API will be running at:
     ```bash
