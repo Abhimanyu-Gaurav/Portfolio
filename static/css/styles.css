@@ -63,7 +63,7 @@ iframe {
     margin-top: 20px;
 }
 
-/* Responsive Styles */
+/* Responsive Styles So that it wroks on mobile also in better way */
 @media (max-width: 768px) {
     .header {
         padding: 20px; /* Less padding for smaller screens */
