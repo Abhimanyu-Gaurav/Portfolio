@@ -3,46 +3,105 @@ body {
     font-family: Arial, sans-serif;
     background-color: #343a40; /* Dark gray background for better visibility */
     color: #f8f9fa; /* Light text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
+
 .navbar {
     background-color: #007bff; /* Bootstrap primary color */
+    padding: 10px 15px; /* Padding for better touch accessibility */
 }
+
 .navbar-brand, .nav-link {
     color: #fff !important; /* White text for navbar */
 }
+
 .header {
     text-align: center;
-    padding: 50px;
+    padding: 10% 0; /* Use percentage for padding */
     color: #f8f9fa; /* Light text for header */
 }
-.profile-pic {
-    width: 150px; /* Profile picture size */
-    border-radius: 50%; /* Circle profile picture */
-    border: 5px solid #fff; /* White border */
-}
+
 .social-icons a {
     margin: 0 10px; /* Space between icons */
     color: #007bff; /* Primary color for icons */
     font-size: 1.5em; /* Increase icon size */
 }
+
 .section {
     padding: 30px 0; /* Padding for sections */
+    text-align: center; /* Center text for better readability */
 }
+
 .collapse {
     background-color: #495057; /* Darker background for collapsed sections */
     padding: 15px; /* Padding for collapsed sections */
     border: 1px solid #007bff; /* Border color for collapsed sections */
     border-radius: 5px; /* Rounded corners */
+    margin: 10px 0; /* Margin between sections */
 }
+
 .collapse h2 {
     color: #f8f9fa; /* Light text color for section headings */
 }
+
 .collapse p, .collapse ul {
     color: #f8f9fa; /* Light text color for section content */
+    text-align: left; /* Align text to left for readability */
+    padding-left: 20px; /* Padding for better readability */
 }
+
+/* Resume link */
+.nav-link[href*="resume"] {
+    color: #007bff; /* Primary color for resume link */
+    font-weight: bold; /* Bold text for resume link */
+}
+
 /* Resume iframe */
 iframe {
     border: none;
     margin-top: 20px;
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header {
+        padding: 20px; /* Less padding for smaller screens */
+    }
+    
+    .navbar {
+        padding: 5px 10px; /* Reduce padding in the navbar */
+    }
+    
+    .social-icons {
+        margin: 20px 0; /* Margin for social icons */
+    }
+    
+    .social-icons a {
+        font-size: 1.2em; /* Smaller icon size for mobile */
+    }
+    
+    .nav-link {
+        padding: 10px; /* Adjust padding for nav links on mobile */
+    }
+    
+    h1 {
+        font-size: 24px; /* Smaller heading for mobile */
+    }
+    
+    h2 {
+        font-size: 20px; /* Smaller subheading for mobile */
+    }
+    
+    .section {
+        padding: 20px 0; /* Less padding for smaller screens */
+    }
+    
+    .collapse {
+        padding: 10px; /* Less padding for collapsed sections on mobile */
+    }
+    
+    .collapse p, .collapse ul {
+        padding-left: 10px; /* Less padding for better readability on mobile */
+    }
+}
