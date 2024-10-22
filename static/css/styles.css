@@ -7,44 +7,65 @@ body {
     padding: 0; /* Remove default padding */
 }
 
+/* Navigation Bar */
 .navbar {
     background-color: #007bff; /* Bootstrap primary color */
     padding: 10px 15px; /* Padding for better touch accessibility */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
+/* Navbar Links */
 .navbar-brand, .nav-link {
     color: #fff !important; /* White text for navbar */
 }
 
+/* Header */
 .header {
     text-align: center;
     padding: 10% 0; /* Use percentage for padding */
     color: #f8f9fa; /* Light text for header */
 }
 
+/* Social Media Links */
+.social-icons {
+    margin-top: 10px; /* Space above social icons */
+}
+
+/* Adjusted styles for social icons */
 .social-icons a {
     margin: 0 10px; /* Space between icons */
     color: #007bff; /* Primary color for icons */
     font-size: 1.5em; /* Increase icon size */
+    transition: color 0.3s; /* Transition effect on hover */
 }
 
+/* Change icon color on hover */
+.social-icons a:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
+
+/* Section Styles */
 .section {
     padding: 30px 0; /* Padding for sections */
     text-align: center; /* Center text for better readability */
 }
 
+/* Collapsible Section */
 .collapse {
     background-color: #495057; /* Darker background for collapsed sections */
     padding: 15px; /* Padding for collapsed sections */
     border: 1px solid #007bff; /* Border color for collapsed sections */
     border-radius: 5px; /* Rounded corners */
     margin: 10px 0; /* Margin between sections */
+    transition: background-color 0.3s; /* Transition for background color */
 }
 
+/* Section Headings */
 .collapse h2 {
     color: #f8f9fa; /* Light text color for section headings */
 }
 
+/* Section Content */
 .collapse p, .collapse ul {
     color: #f8f9fa; /* Light text color for section content */
     text-align: left; /* Align text to left for readability */
@@ -61,9 +82,11 @@ body {
 iframe {
     border: none;
     margin-top: 20px;
+    width: 100%; /* Make iframe responsive */
+    height: 500px; /* Set a specific height */
 }
 
-/* Responsive Styles So that it wroks on mobile also in better way */
+/* Responsive Styles */
 @media (max-width: 768px) {
     .header {
         padding: 20px; /* Less padding for smaller screens */
@@ -94,7 +117,7 @@ iframe {
     }
     
     .section {
-        padding: 20px 0; /* Less padding for smaller screens */
+        padding: 20px 10px; /* Less padding for sections on mobile */
     }
     
     .collapse {
@@ -103,5 +126,18 @@ iframe {
     
     .collapse p, .collapse ul {
         padding-left: 10px; /* Less padding for better readability on mobile */
+    }
+
+    /* Specific styles for iframe on mobile */
+    iframe {
+        height: 400px; /* Adjust height for mobile */
+    }
+}
+
+/* Additional tablet responsiveness */
+@media (max-width: 1024px) {
+    /* Additional adjustments for tablet screens */
+    .section {
+        padding: 15px; /* Less padding for tablet screens */
     }
 }

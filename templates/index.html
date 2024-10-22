@@ -6,7 +6,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="../static/css/styles.css"> <!-- Correct path for your CSS file -->
+    <link rel="stylesheet" href="../static/css/styles.css"> <!-- Ensure the path to your CSS file is correct -->
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZSK913Q88"></script>
@@ -21,7 +21,10 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Abhimanyu Gaurav</a>
-        <div class="collapse navbar-collapse">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="collapse" href="#skills" role="button" aria-expanded="false" aria-controls="skills">Skills</a>
@@ -41,7 +44,6 @@
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="collapse" href="#contact" role="button" aria-expanded="false" aria-controls="contact">Contact</a>
                 </li>
-                
             </ul>
         </div>
     </nav>
@@ -71,7 +73,6 @@
             <li><strong>Areas of Expertise:</strong> Web Scraping, API Development, Workflow Automation</li>
         </ul>
     </div>
-
 
     <!-- Education Section -->
     <div id="education" class="section collapse">
@@ -107,16 +108,12 @@
                 <p><strong>Impact:</strong> Enabled clients to automate repetitive data collection tasks, saving hours of manual effort per week.</p>
                 <a href="https://github.com/Abhimanyu-Gaurav/Web-Scraper-API" target="_blank" class="btn btn-primary">View on GitHub</a>
             </li>
-            
-            <!-- Add more projects as needed -->
         </ul>
     </div>
-
 
     <!-- Work Experience Section -->
     <div id="work" class="section collapse">
         <h2>Work Experience</h2>
-
         <ul>
             <li>
                 <h3>Freelance Software Developer</h3>
@@ -151,23 +148,26 @@
                     <li>Used Playwright to dynamically load and scroll through Google Maps listings, ensuring complete data collection from large datasets.</li>
                     <li>Integrated the scraper with n8n for real-time data processing and automated updates, providing business insights to clients.</li>
                     <li>Customized scraping workflows to meet industry-specific requirements, including healthcare, hospitality, and local businesses.</li>
-                    <li>Provided valuable insights to the sales team, helping them approach clients with targeted pain points and solutions.</li>
                 </ul>
             </li>
-        </ul>    
+        </ul>
     </div>
-
 
     <!-- Contact Section -->
     <div id="contact" class="section collapse">
-        <h2>Contact Information</h2>
-        <p>📧 Contact: <a href="mailto:kr.abhi.gaurav11@gmail.com">kr.abhi.gaurav11@gmail.com</a></p>
-        <p>📞 Mobile: <a href="tel:+91 7992387390">+91 7992387390</a></p>
+        <h2>Contact</h2>
+        <p>Email:  <a href="mailto:kr.abhi.gaurav11@gmail.com">kr.abhi.gaurav11@gmail.com</a></p> 
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/abhimanyu-gaurav-b25912132/" target="_blank">https://www.linkedin.com/in/abhimanyu-gaurav-b25912132/</a></p>
+        <p>📱 Phone: <a href="tel:+91 7992387390">+91 7992387390</a></p>
     </div>
 
-    <!-- Bootstrap JS and dependencies -->
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Abhimanyu Gaurav. All Rights Reserved.</p>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
